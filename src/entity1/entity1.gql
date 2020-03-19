@@ -1,0 +1,16 @@
+type Book {
+  title: String
+  author: Author
+}
+
+type Author {
+  name: String
+}
+
+extend type Query {
+    getBooks: [Book]
+}
+
+
+
+
